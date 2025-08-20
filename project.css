@@ -1,0 +1,58 @@
+*{
+    color: black;
+}
+body{
+    /* text-align: center;
+    justify-content: center; */
+    background-image: url("hostel.jpg");
+    opacity: 0.8;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color:black;
+    text-decoration-color:rgb(18, 17, 17);
+ 
+}
+.container{
+    max-width: 800px;
+    margin: 50px auto;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: aliceblue;
+    box-shadow: 0 0 10px rgba(0,0,0.7);
+    
+}
+input{
+    width: 80%;
+    padding: 15px;
+    border-radius: 10px;
+    
+}
+.btn{
+    border-radius: 10px;
+    width: 20%;
+    font-size: large;
+    padding: 10px;
+}
+
+form{
+    width: 50%;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgb(4, 4, 4);
+}
+
+div{
+ width: 100%;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ flex-direction: column;
+}
+
+.font{
+    font-size: larger;
+}
+

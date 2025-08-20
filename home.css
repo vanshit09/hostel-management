@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-image:url('hostel.jpg');
+    background-size: cover;
+    
+    
+}
+ul {
+    list-style-type: none;
+    margin: 10px;
+    padding: 0;
+}
+
+
+nav {
+    background-color: #333;
+    list-style-type: none;
+}
+
+
+nav ul {
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+  
+}
+
+nav ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    
+}
+
+nav ul li a:hover {
+    background-color: #555;
+}
+
+
+        div.header {
+            font-family: poppins;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0px 60px;
+            background-color: #204969;
+        }
+
+        div.header button {
+            background-color: #f0f0f0;
+            font-size: 16px;
+            font-weight: 550;
+            padding: 8px 12px;
+            border: 2px solid black;
+            border-radius: 5px;
+        }
