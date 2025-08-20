@@ -1,0 +1,7 @@
+# Force GitHub Linguist to classify PHP files as PHP (not Hack)
+*.php linguist-language=PHP
+
+# Exclude dumped/third-party artifacts from language stats
+updateold_files/* linguist-vendored
+*.download linguist-vendored
+
